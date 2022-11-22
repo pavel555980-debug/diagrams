@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T14:52:08.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XUhOwKcUYixvyDmbqWA2" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T15:16:39.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="X2QrDxhYPuUsSdKq0JxR" version="20.5.3" type="github">
   <diagram id="-edafhtojywYm4z94_LV" name="Страница 1">
     <mxGraphModel dx="369" dy="1375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -560,23 +560,25 @@
         <mxCell id="Fej6M75jO1chnc4TPpeF-221" value="Вина компании" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="2960" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Fej6M75jO1chnc4TPpeF-233" value="Misha" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3400" y="650" width="160" height="138" as="geometry" />
+        <mxCell id="Fej6M75jO1chnc4TPpeF-233" value="Misha" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="3400" y="670" width="160" height="144" as="geometry">
+            <mxRectangle x="3400" y="680" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fej6M75jO1chnc4TPpeF-234" value="- state: State" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="Fej6M75jO1chnc4TPpeF-233">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry y="30" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Fej6M75jO1chnc4TPpeF-237" value="- age: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="Fej6M75jO1chnc4TPpeF-233">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
+          <mxGeometry y="56" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Fej6M75jO1chnc4TPpeF-235" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;rounded=1;" vertex="1" parent="Fej6M75jO1chnc4TPpeF-233">
-          <mxGeometry y="78" width="160" height="8" as="geometry" />
+          <mxGeometry y="82" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="Fej6M75jO1chnc4TPpeF-236" value="+ getAge(): int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="Fej6M75jO1chnc4TPpeF-233">
-          <mxGeometry y="86" width="160" height="26" as="geometry" />
+          <mxGeometry y="90" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Fej6M75jO1chnc4TPpeF-239" value="+ getState(): State" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="Fej6M75jO1chnc4TPpeF-233">
-          <mxGeometry y="112" width="160" height="26" as="geometry" />
+          <mxGeometry y="116" width="160" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
